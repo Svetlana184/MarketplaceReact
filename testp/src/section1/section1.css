@@ -1,0 +1,148 @@
+.hero{
+    height: 821px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    margin-bottom: 5vh;
+}
+.hero_text{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+h1{
+    font-size: 64px;
+}
+.hero_title{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hero_title p{
+    font-size: 16px;
+}
+.hero_title div{
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+.yellow_text{
+    color: #D6EF0E;
+}
+.btn_yellow {
+    width: 143px;
+    height: 48px;
+    background-color: #D6EF0E;
+    border-radius: 15px;
+
+    margin: 0;
+}
+.btn_yellow a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.btn_border{
+    background-color: rgba(1, 1, 1, 0.0);
+    border: none;
+}
+.btn_border a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.hero_numbers{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+.hero_numbers li{
+    border-right:#D6EF0E 1px solid;
+    padding-right: 20px;
+    margin: 0;
+
+}
+.hero_numbers h6{
+    font-size: 64px;
+}
+
+.hero_pics{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.first_hero_pic{
+    width: 100%;
+    height: 80%;
+    background-image: url(../assets/sec1_pic.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.first_hero_pic img{
+    width: 171px;
+    height: 171px;
+    display: flex;
+    align-self: flex-start;
+    justify-self: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+.add_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    width: 304px;
+    height: 169px;
+    background-color: #131E3A;
+    border-radius: 20px;
+    border-top:#D6EF0E 1px solid;
+    position: absolute;
+    top: 80%;
+    left: 73%;
+}
+.st_add_card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 35%;
+}
+.st_add_card div{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.st_add_card h6{
+    color:#D6EF0E;
+    font-size: 16px;
+}
+.btn_bid1 {
+    width: 264px;
+    height: 52px;
+    background-color: rgba(1, 1, 1, 0.0);
+    border-radius: 15px;
+    border: #D6EF0E 1px solid;
+    margin: 0;
+    color: #D6EF0E;
+    font-size: 16px;
+}
